@@ -255,6 +255,25 @@ function App() {
           )}
         </div>
       </Modal>
+
+      {/* Footer with Built with Bolt badge */}
+      <footer className="w-full mt-12 py-4 flex justify-center items-center bg-transparent">
+        <a
+          href="https://bolt.new"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 text-gray-500 hover:text-blue-600 text-sm font-medium transition-colors"
+          aria-label="Built with Bolt.new"
+        >
+          <img
+            src="/black_circle_360x360.png"
+            alt="Powered by Bolt.new"
+            className="h-8 w-8 rounded-full shadow-sm border border-gray-200 bg-white"
+            style={{ background: 'white' }}
+          />
+          <span className="ml-2">Built with Bolt</span>
+        </a>
+      </footer>
     </div>
   );
 }
