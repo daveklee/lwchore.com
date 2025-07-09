@@ -1,5 +1,8 @@
 # LWChore - Fun Allowance Calculator
 
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[Repository](https://github.com/daveklee/lwchore.com) | [Live Site](https://daveklee.com/lwchore.com/)
+
 A gamified allowance calculator that lets kids rate their chore performance and spin a wheel to determine their bonus multiplier!
 
 ## Features
@@ -69,3 +72,7 @@ This app is configured for easy deployment on Netlify with:
 - Environment variable support
 
 Simply connect your repository to Netlify and it will deploy automatically!
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
